@@ -1,0 +1,27 @@
+{
+    "name": "hraw/uuid",
+    "description": "A simple and lightweight class to create and validate uuid version 4 in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "uuid",
+        "identifier",
+        "guid"
+    ],
+    "authors": [
+        {
+            "name": "Harish Rawat",
+            "email": "dev.harishrawat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hraw\\Uuid\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
