@@ -32,7 +32,7 @@ class UuidV4
      * @param array $segments
      * @return string
      */
-    public static function transformToUuid(array $segments): string
+    public static function transformToUuid($segments): string
     {
         $uuid = '';
         foreach ($segments as $key => $segment)
